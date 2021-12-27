@@ -3,30 +3,31 @@ import PriceComponent from "./components/PriceComponent";
 import SeatListComponent from "./components/SeatListComponent";
 import SelectedSeatList from "./components/SelectedSeatList";
 
-function App() {
-  const seat_list = [
-    "01",
-    "02",
-    "03",
-    "04",
-    "05",
-    "06",
-    "07",
-    "08",
-    "09",
-    "10",
-    "11",
-    "12",
-    "13",
-    "14",
-    "15",
-    "16",
-    "17",
-    "18",
-    "19",
-    "20",
-  ];
 
+const seat_list = [
+  "01",
+  "02",
+  "03",
+  "04",
+  "05",
+  "06",
+  "07",
+  "08",
+  "09",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19",
+  "20",
+];
+
+function App() {
   return (
     <div>
       <SeatListComponent seat_list={seat_list} />
